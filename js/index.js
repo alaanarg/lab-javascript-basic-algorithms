@@ -10,9 +10,9 @@ let hacker2 = "Marcus"
 if (hacker1.length > hacker2.length) {
     console.log("The driver has the the longest name, it has " + hacker1.length)
   } else if (hacker2.length > hacker1.length) {
-             console.log("It seems that the navigator has the longest name, it has " + hacker2.length + " characters.")
-               } else (hacker1.length === hacker2.length) {
-    console.log("Wow, you both have equally long names " + hacker1.length + " characters!") }
+             console.log(`It seems that the navigator has the longest name, it has ${hacker2.length} characters.`)
+               } else (hacker1.length === hacker2.length);
+    console.log(`Wow, you both have equally long names ${hacker1.length} characters!`);
   
 // Iteration 3: Loops
 hacker1 = hacker1.toUpperCase();
